@@ -4,31 +4,33 @@
 
 
  <Module>
-   <ModulePrefs title="SAP Facebook" description="SAP Facebook OpenSocial Gadget" author="Joni Wong Angkasa" height="800">
+   <ModulePrefs title="Chart JS" description="Chart JS" author="Joni Wong Angkasa" height="800">
 
    </ModulePrefs>
    <Content type="html"><![CDATA[
+     <body>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.js"></script>
      <canvas id="buyers" width="600" height="400"></canvas>
      <script>
+       var buyerData = {
+       labels : ["January","February","March","April","May","June"],
+       datasets : [
+       {
+         fillColor : "rgba(172,194,132,0.4)",
+         strokeColor : "#ACC26D",
+         pointColor : "#fff",
+         pointStrokeColor : "#9DB86D",
+         data : [203,156,99,251,305,247]
+       }	]
+       }
     var buyers = document.getElementById('buyers').getContext('2d');
     new Chart(buyers).Line(buyerData);
     </script>
 
-    var buyerData = {
-	labels : ["January","February","March","April","May","June"],
-	datasets : [
-		{
-			fillColor : "rgba(172,194,132,0.4)",
-			strokeColor : "#ACC26D",
-			pointColor : "#fff",
-			pointStrokeColor : "#9DB86D",
-			data : [203,156,99,251,305,247]
-		}
-	]
-}
-   
+  </body>
+
+
    ]]>
   </Content>
  </Module>

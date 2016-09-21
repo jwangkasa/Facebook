@@ -8,9 +8,10 @@
 
    </ModulePrefs>
    <Content type="html"><![CDATA[
-     <body>
+     
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.js"></script>
+     <body>
      <canvas id="buyers" width="600" height="400"></canvas>
      <script>
        var buyerData = {
@@ -23,14 +24,11 @@
          pointStrokeColor : "#9DB86D",
          data : [203,156,99,251,305,247]
        }	]
-       }
+       };
     var buyers = document.getElementById('buyers').getContext('2d');
     new Chart(buyers).Line(buyerData);
     </script>
-
   </body>
-
-
    ]]>
   </Content>
  </Module>

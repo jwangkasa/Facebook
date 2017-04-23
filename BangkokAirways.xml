@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- New document created with Notepad at Tue Feb 23 12:40:00 CDT 2016 -->
+
+
+
+
+
+ <Module>
+
+   <ModulePrefs title="Starhub Facebook Display" description="SAP Facebook OpenSocial Gadget" author="Joni Wong Angkasa" height="800">
+
+     
+
+   </ModulePrefs>
+
+   <Content type="html"><![CDATA[
+
+   <div>
+
+ <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFlyBangkokAir%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=245341102567447" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+ 
+
+   ]]>
+
+  </Content>
+
+ </Module>

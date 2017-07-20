@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Example using CSS3" 
+        author="Joni Wong Angkasa"  />
+    <Content type="html">
+    <![CDATA[ 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <body>
+
+    <table class="table" >
+  <thead>
+    <tr>
+      <th><abbr title="Position">Position</abbr></th>
+      <th>Type of Account</th>
+      <th><abbr title="AccountNo">Account No:</abbr></th>
+      <th><abbr title="Branch">Branch</abbr></th>
+      <th><abbr title="Amount">Amount</abbr></th>
+      <th><abbr title="Expiry">Expiry</abbr></th>
+      <th><abbr title="Other">Other Information</abbr></th>
+      <th>Upsell</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <th><abbr title="Position">Position</abbr></th>
+      <th>Type of Account</th>
+      <th><abbr title="AccountNo">Account No:</abbr></th>
+      <th><abbr title="Branch">Branch</abbr></th>
+      <th><abbr title="Amount">Amount</abbr></th>
+      <th><abbr title="Expiry">Expiry</abbr></th>
+      <th><abbr title="Other">Other Information</abbr></th>
+      <th>Upsell</th>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Savings</a>
+      </td>
+      <td>008-310-230201</td>
+      <td>Hanoi</td>
+      <td>VND 123,800,900</td>
+      <td>None</td>
+      <td>Premier Customer</td>
+      <td><button>Yes</button></td>
+    </tr>
+    <tr class="is-selected">
+      <th>2</th>
+      <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Fixed Deposit</a>
+      </td>
+      <td>008-210-230288</td>
+      <td>Hanoi</td>
+      <td>USD 108,000.00</td>
+      <td>31-OCT-2017</td>
+      <td>Premier Customer</td>
+      <td><button>Yes</button></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Credit Cards</a>
+      </td>
+      <td>4265-0008-3120-2302</td>
+      <td>Hanoi</td>
+      <td>VND 100,000,000</td>
+      <td>31-APR-2020</td>
+      <td>Platinum VISA</td>
+      <td><button>Yes</button></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Credit Cards</a>
+      </td>
+      <td>5520-3210-8791-1980</td>
+      <td>Hanoi</td>
+      <td>VND 100,000,000</td>
+      <td>None</td>
+      <td>Platinum Master</td>
+      <td><button>Yes</button></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Insurance</a>
+      </td>
+      <td>AIA-230-1002-302P</td>
+      <td>Hanoi</td>
+      <td>Not Applicable</td>
+      <td>None</td>
+      <td>Life Insurance Customer</td>
+      <td><button>Yes</button></td>
+    </tr>
+</tbody>
+</table>
+
+
+  <!--end of container-->
+  </body>
+       ]]> 
+    </Content>
+</Module>

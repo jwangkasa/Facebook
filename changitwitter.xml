@@ -9,12 +9,9 @@
    </ModulePrefs>
    <Content type="html"><![CDATA[
    <div>
-              <a class="twitter-timeline" href="https://twitter.com/KrungsriSimple">Tweets by KrungsriSimple</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" href="https://twitter.com/PTTNews">Tweets by PTTNews</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
    </div>
 <br>
-<div>
-<a class="twitter-timeline" href="https://twitter.com/PTTNews">Tweets by PTTNews</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-   
    ]]>
   </Content>
  </Module>

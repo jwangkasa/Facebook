@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with Notepad at Tue Feb 23 12:40:00 CDT 2016 -->
+
+
+ <Module>
+   <ModulePrefs title="Twitter" description="PTT Twitter OpenSocial Gadget" author="Joni Wong Angkasa" height="800">
+     
+   </ModulePrefs>
+   <Content type="html"><![CDATA[
+   <div>
+              <a class="twitter-timeline" href="https://twitter.com/PTTNews">Tweets by PTTNews</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+   </div>
+<br>
+   ]]>
+  </Content>
+ </Module>

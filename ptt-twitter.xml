@@ -4,7 +4,7 @@
 
 
  <Module>
-   <ModulePrefs title="Twitter" description="Twitter OpenSocial Gadget" author="Joni Wong Angkasa" height="800">
+   <ModulePrefs title="Twitter" description="Twitter using OpenSocial Gadget" author="Joni Wong Angkasa" height="800">
      
    </ModulePrefs>
    <Content type="html"><![CDATA[
